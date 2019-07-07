@@ -1,0 +1,12 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: EIKEmergencyInformationKit
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 256M
+  domain: not-used.net
+  host: not-used
+  services:
+    - eik-emergency-info-cloudant-1562033712044

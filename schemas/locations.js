@@ -24,7 +24,10 @@ module.exports = Joi.object().keys({
   _rev: Joi.string(),
   _id: Joi.string(),
   name: Joi.string().required().max(50, 'utf8'),
+  category: Joi.string().required().max(50, 'utf8'),
+  address: Joi.string().required().max(50, 'utf8'),
+  city: Joi.string().required().max(20, 'utf8'),
+  zip: Joi.number().required().min(100).max(99999),
   lat: Joi.number().required(),
-  lng: Joi.number().required(),
-
+  lng: Joi.number().required()
 });
