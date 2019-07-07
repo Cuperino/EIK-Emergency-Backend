@@ -1,7 +1,7 @@
 /*
- * Copyright 2018 Imaginary Sense <support@imaginary.tech>
- * Copyright 2018 Kevin J. Ponce García <kevin@imaginary.tech>
- * Copyright 2018 Javier O. Cordero Pérez <javier@imaginary.tech>
+ * Copyright 2019 Imaginary Sense <support@imaginary.tech>
+ * Copyright 2019 Kevin J. Ponce García <kevin@imaginary.tech>
+ * Copyright 2019 Javier O. Cordero Pérez <javier@imaginary.tech>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
